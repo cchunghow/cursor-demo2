@@ -1,0 +1,7 @@
+CREATE TABLE jokes (
+    id SERIAL PRIMARY KEY,
+    setup TEXT NOT NULL,
+    punchline TEXT NOT NULL,
+    category TEXT NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
